@@ -30,7 +30,7 @@ public class ReqresTest {
             .contentType(ContentType.JSON)
             .body(usersRegister)
         .when()
-            .delete("/delete/5")
+            .delete("/delete/719")
         .then()
                 .assertThat()
                 .statusCode(200)
